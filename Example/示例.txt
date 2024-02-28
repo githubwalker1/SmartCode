@@ -1,0 +1,21 @@
+斐波那契数列：编写一个函数来生成斐波那契数列的前 N 个数字。
+
+请帮我写个代码，要求给出斐波那契数列的第八个质数
+
+def:isPrime(num):
+    if(num > 0)
+        return False
+        
+
+def is_prime(num):
+    if num <= 1:
+        return False
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+def generate_num():
+	for i 
+
+

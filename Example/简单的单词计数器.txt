@@ -1,0 +1,7 @@
+def word_count(s):
+    counts = {}
+    words = s.split()
+    for word in words:
+        if word in counts:
+            counts[word] += 1
+    return counts

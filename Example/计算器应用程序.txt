@@ -1,0 +1,18 @@
+编写一个简单的命令行计算器，可以进行基本的加减乘除运算
+
+# 定义加法函数
+def add(x, y):
+    return x + y
+
+# 定义减法函数
+def subtract(x, y):
+    return x - y
+
+# 定义乘法函数
+def multiply(x, y):
+    return x * y
+
+# 定义除法函数，需要考虑除数不能为零的情况
+def divide(x, y):
+    if y == 0:
+        return "除数不能为零"

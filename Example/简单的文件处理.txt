@@ -1,0 +1,10 @@
+def process_text_file(file_path):
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+        word_count = 0
+
+        for line in lines:
+            words = line.split()
+            word_count += len(words)
+            line_count = len(lines)
+    return word_count, line_count

@@ -1,0 +1,25 @@
+import random
+
+# 生成随机数字
+def generate_random_number():
+    return random.randint(1, 100)  # 生成1到100之间的随机整数
+
+# 主游戏逻辑
+def guess_the_number():
+    print("欢迎参加猜数字游戏!")
+    print("我已经生成了一个1到100之间的随机整数。你的任务是猜出这个数字是多少。")
+
+    target_number = generate_random_number()
+    attempts = 0
+
+    while True:
+        try:
+            guess = int(input("请输入你的猜测: "))
+            attempts += 1
+
+            if guess < target_number:
+                print("猜测的数字太小了，请再试一次。")
+            elif guess > target_number:
+                print("猜测的数字太大了，请再试一次。")
+            else:
+                print(

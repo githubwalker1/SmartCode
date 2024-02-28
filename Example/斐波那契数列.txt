@@ -1,0 +1,8 @@
+def generate_fibonacci(n):
+    fibonacci_sequence = []
+
+    # 初始斐波那契数列的前两个数字
+    a, b = 0, 1
+
+    # 生成斐波那契数列的前 N 个数字
+    for _ in range(n):

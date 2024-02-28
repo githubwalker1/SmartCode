@@ -1,0 +1,7 @@
+def find_max_value(input_list):
+    if not input_list:
+        return None  # 如果列表为空，返回None
+
+    max_value = input_list[0]  # 假设第一个元素是最大值
+
+    for num in input_list:
