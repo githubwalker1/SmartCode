@@ -47,7 +47,7 @@ class Recognize_Recommend(BaseAgent):
 
 if __name__ == '__main__':
     import os
-    os.environ['OPENAI_API_KEY'] = 'sk-Rw6PwT9JEa6uRGzt687414F8163a44EbA274C383C5A4F9Fd'
+    os.environ['OPENAI_API_KEY'] = ''
     os.environ['OPENAI_BASE_URL'] = 'https://hb.rcouyi.com/v1'
 
     temp = Recognize_Recommend(mode="json",temperature=0.1)

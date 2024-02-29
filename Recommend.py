@@ -4,7 +4,7 @@ from utils.glove_embedding import embedding_get_id
 import json
 import os
 
-os.environ['OPENAI_API_KEY'] = 'sk-Rw6PwT9JEa6uRGzt687414F8163a44EbA274C383C5A4F9Fd'
+os.environ['OPENAI_API_KEY'] = ''
 os.environ['OPENAI_BASE_URL'] = 'https://hb.rcouyi.com/v1'
 
 #os.environ['OPENAI_API_KEY'] = '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'

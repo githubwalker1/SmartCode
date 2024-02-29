@@ -8,8 +8,8 @@ Description:
 '''
 
 import os
-os.environ["OPENAI_API_KEY"] = "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"
-#os.environ["OPENAI_API_KEY"] = "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"   #4
+os.environ["OPENAI_API_KEY"] = ""
+#os.environ["OPENAI_API_KEY"] = ""
 
 
 from Agents.Teacher.DeTask import DeTask

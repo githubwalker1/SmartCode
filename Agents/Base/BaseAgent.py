@@ -170,7 +170,7 @@ class BaseAgent():
 
 if __name__ == '__main__':
     import os
-    os.environ["OPENAI_API_KEY"] = "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"
+    os.environ["OPENAI_API_KEY"] = ""
 
     temp = {"role": "user", "content": "HI"}
     #temp =  {"role": "user","content": "请帮我写个代码，要求给出斐波那契数列的第八个质数 "}
